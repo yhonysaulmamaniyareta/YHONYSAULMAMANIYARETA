@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>CV - Yhony Saul Mamani Yareta</title>
+<style>
+  :root{
+    --azul:#1f3a5f; --azul-claro:#e8eef6; --acento:#2f80ed;
+    --texto:#222; --gris:#666; --fondo:#f2f4f7;
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  body{font-family:"Segoe UI",Arial,sans-serif;background:var(--fondo);color:var(--texto);line-height:1.55;padding:24px 16px}
+  .cv{max-width:920px;margin:0 auto;background:#fff;display:grid;grid-template-columns:300px 1fr;box-shadow:0 6px 24px rgba(0,0,0,.12);border-radius:8px;overflow:hidden}
+  aside{background:var(--azul);color:#fff;padding:36px 26px}
+  .foto{width:120px;height:120px;border-radius:50%;background:#fff;color:var(--azul);display:flex;align-items:center;justify-content:center;font-size:42px;font-weight:700;margin:0 auto 22px;border:4px solid var(--acento)}
+  aside h2{font-size:14px;letter-spacing:2px;text-transform:uppercase;border-bottom:2px solid var(--acento);padding-bottom:6px;margin:26px 0 12px}
+  aside p,aside li{font-size:14px;word-break:break-word}
+  aside ul{list-style:none}
+  aside li{margin-bottom:8px}
+  aside .etq{display:block;font-size:11px;letter-spacing:1px;color:#a9c3e6;text-transform:uppercase}
+  aside a{color:#fff;text-decoration:none}
+  aside a:hover{text-decoration:underline}
+  main{padding:36px 38px}
+  header h1{font-size:30px;color:var(--azul);text-transform:uppercase;line-height:1.15}
+  header .puesto{color:var(--acento);font-size:16px;font-weight:600;margin-top:6px}
+  section{margin-top:26px}
+  section h2{font-size:16px;color:var(--azul);text-transform:uppercase;letter-spacing:2px;border-bottom:2px solid var(--azul-claro);padding-bottom:6px;margin-bottom:14px}
+  .item{margin-bottom:14px}
+  .item h3{font-size:15px}
+  .item .fecha{font-size:13px;color:var(--gris)}
+  .item p,.item li{font-size:14px}
+  .item ul{margin:4px 0 0 18px}
+  .barra{margin-bottom:10px;font-size:14px}
+  .barra div{height:7px;background:var(--azul-claro);border-radius:4px;margin-top:4px;overflow:hidden}
+  .barra span{display:block;height:100%;background:var(--acento)}
+  @media (max-width:720px){
+    .cv{grid-template-columns:1fr}
+    main{padding:26px 22px}
+  }
+  @media print{
+    body{background:#fff;padding:0}
+    .cv{box-shadow:none;border-radius:0;max-width:none}
+    *{-webkit-print-color-adjust:exact;print-color-adjust:exact}
+  }
+</style>
+</head>
+<body>
+<div class="cv">
+
+  <aside>
+    <div class="foto">YM</div>
+
+    <h2>Contacto</h2>
+    <ul>
+      <li><span class="etq">Teléfono</span><a href="tel:+51997304154">997 304 154</a></li>
+      <li><span class="etq">Correo electrónico</span><a href="mailto:yhonyusaulmamaniyareta@gmail.com">yhonyusaulmamaniyareta@gmail.com</a></li>
+      <li><span class="etq">Ubicación</span>Perú</li>
+    </ul>
+
+    <h2>Aptitudes</h2>
+    <ul>
+      <li>Ofimática</li>
+      <li>Mantenimiento preventivo de equipos</li>
+      <li>Instalación de sistemas operativos</li>
+      <li>Soporte técnico básico</li>
+      <li>Redes y cableado básico</li>
+    </ul>
+
+    <h2>Aficiones</h2>
+    <ul>
+      <li>Tecnología y computación</li>
+      <li>Aprender nuevas herramientas</li>
+      <li>Deporte</li>
+      <li>Música</li>
+    </ul>
+  </aside>
+
+  <main>
+    <header>
+      <h1>Yhony Saul<br>Mamani Yareta</h1>
+      <div class="puesto">Estudiante de Arquitectura de Plataformas y Servicios de TI</div>
+    </header>
+
+    <section>
+      <h2>Perfil</h2>
+      <p>Estudiante de Arquitectura de Plataformas y Servicios de Tecnologías de la Información en el IESTP Santa Lucía. Responsable, con disposición para aprender y trabajar en equipo. Con conocimientos en ofimática y mantenimiento preventivo de computadoras, busco realizar prácticas pre profesionales que me permitan aplicar y fortalecer mis conocimientos en el área de TI.</p>
+    </section>
+
+    <section>
+      <h2>Educación</h2>
+      <div class="item">
+        <h3>IESTP Santa Lucía</h3>
+        <div class="fecha">Actualidad</div>
+        <p>Arquitectura de Plataformas y Servicios de Tecnologías de la Información.</p>
+      </div>
+      <div class="item">
+        <h3>IES Industrial Santa Lucía</h3>
+        <div class="fecha">2017 - 2021</div>
+        <p>Educación secundaria.</p>
+      </div>
+      <div class="item">
+        <h3>IEP 70400 Virgen del Carmen</h3>
+        <div class="fecha">2011 - 2016</div>
+        <p>Educación primaria.</p>
+      </div>
+    </section>
+
+    <section>
+      <h2>Experiencia laboral</h2>
+      <div class="item">
+        <h3>Prácticas de mantenimiento y soporte técnico</h3>
+        <div class="fecha">Formación académica</div>
+        <ul>
+          <li>Mantenimiento preventivo y limpieza de equipos de cómputo.</li>
+          <li>Instalación y configuración de software y sistemas operativos.</li>
+          <li>Apoyo en la resolución de incidencias básicas de usuarios.</li>
+        </ul>
+      </div>
+    </section>
+
+    <section>
+      <h2>Habilidades</h2>
+      <div class="barra">Ofimática (Word, Excel, PowerPoint)<div><span style="width:85%"></span></div></div>
+      <div class="barra">Mantenimiento preventivo<div><span style="width:80%"></span></div></div>
+      <div class="barra">Soporte técnico<div><span style="width:70%"></span></div></div>
+      <div class="barra">Trabajo en equipo<div><span style="width:90%"></span></div></div>
+    </section>
+  </main>
+
+</div>
+</body>
+</html>
